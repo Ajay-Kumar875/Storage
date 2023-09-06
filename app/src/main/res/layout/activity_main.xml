@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Firebase storage in android"
+        android:textSize="20dp"
+        android:textFontWeight="600"
+        android:textAlignment="center"
+        android:padding="20dp"
+        android:background="#FFC107"
+        />
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_marginVertical="50dp"
+        android:layout_marginHorizontal="20dp"
+        />
+
+    <Button
+        android:id="@+id/btnChoose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select image"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="#000"
+        android:textColor="#fff"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/btnUpload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload image"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="#000"
+        android:textColor="#fff"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Image UUids"
+        android:textColor="#fff"
+        android:background="#000"
+        android:onClick="getList"
+        android:layout_marginHorizontal="10dp"
+        android:textAllCaps="false"
+
+        />
+
+</LinearLayout>
